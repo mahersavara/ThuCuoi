@@ -1,11 +1,11 @@
-const app = require ("express")();
+const index = require ("express")();
 
 const PORT = process.env.PORT || 3000;
 
-app.get("",(req,res) => {
+index.get("",(req, res) => {
     res.send("Hello World");
 });
 
-app.listen(PORT,()=> {
+index.listen(PORT,()=> {
     console.log(`App up at port ${PORT}`);
 })
