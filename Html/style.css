@@ -1,6 +1,27 @@
-body .image-bg {
-  width: 100%;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fceed7;
+}
+body .image-box {
+  display: grid;
   height: 100%;
+}
+body .image-box .image-bg {
+  max-width: 100%;
+  margin: auto;
+  height: auto;
+}
+body .image-box .text-bg {
+  max-width: 100%;
+  margin: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
