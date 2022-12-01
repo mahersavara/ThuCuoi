@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #fceed7;
+  background-image: url("BackgroundMinimize.png");
 }
 body .image-box {
   display: grid;

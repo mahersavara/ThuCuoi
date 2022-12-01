@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node .",
-    "dev": "nodemon Js/app.js . & npm run scss",
+    "dev": "nodemon Js/app.js && npm run scss",
     "scss": "sass --watch Html/style.scss Html/style.css"
   },
   "repository": {
