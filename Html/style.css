@@ -5,6 +5,7 @@
 
 body {
   background-image: url("BackgroundMinimize.png");
+  background-size: contain;
 }
 body .image-box {
   display: grid;

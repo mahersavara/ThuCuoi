@@ -5,6 +5,7 @@ $red: red;
 }
 body {
   background-image:url("BackgroundMinimize.png") ;
+  background-size: contain;
   .image-box{
     display: grid;
     height: 100%;
