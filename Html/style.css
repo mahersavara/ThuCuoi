@@ -1,6 +1,13 @@
 body .image-bg {
+  position: relative;
   width: 100%;
   height: 100%;
+}
+body .image-bg .vid {
+  position: absolute;
+  z-index: 300000;
+  margin-top: -2505px;
+  left: 11%;
 }
 
 /*# sourceMappingURL=style.css.map */
